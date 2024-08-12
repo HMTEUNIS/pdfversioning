@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.pdfCard {
+  background-color: white;
+  padding: 10px
+}
+
+.pdfCardInfo {
+  display: grid;
+}
+
+.zineTitle {
+  font-weight: bold;
+  font-size: large;
+}
+
+.zineDescription {
+  font-weight: 300;
+}
+
+.button {
+  border: 1px ridge;
+  background-color: white;
+  padding: 3px;
+  cursor: pointer;
+  margin: 5px;
+  position: relative;
+  top: 5px;
+
+}
+
+.button:hover {
+  background-color: rgba(224, 43, 230, 0.637);
+}
+
+.pdfCardCont {
+  border: 2px ridge;
+  background-color: rgba(148, 131, 131, 0.753);
+  width: 70%;
+  padding: 5px;
+  margin: 10px;
+  height: fit-content;
+}
+
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: rgba(148, 131, 131, 0.753);
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  padding-right: 2px;
+
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.pdfEditControls {
+  height: 40px;
+  position: relative;
+  top: 10px;
+}
+
+.pdf-text-display {
+  background-color: white;
+  width: 95%;
+  margin: auto;
+  padding: 5px;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+}
+
+.rightside {
+  width: 80%;
+  position: relative;
+  left: 25%
+}
+
+.navOption {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin-top: 5px;
+
+}
+
+
+
+
+.popup-content {
+  margin: auto;
+  background: rgb(150, 146, 146);
+  width: 40% !important;
+  height: 500px !important;
+  padding: 5px;
+  left: 400px !important;
+}
+
+.feedbackArea {
+  position: relative;
+  height: 70%;
+  width: 95%;
+  resize: none;
+  margin: auto;
+}
+
+.notepop {
+
+  height: 82% !important
+}
+
+.editText {
+  width: 98%;
+  height: 85%;
+  resize: none;
+
+}
